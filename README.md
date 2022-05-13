@@ -36,7 +36,33 @@
 <br>axis 행(0), 열(1) 기준을 잡는 단위<br>
 ![image](image/titanic/isnull.png)
 
-
 ###3. 데이터 시각화
+      데이터 시각화 라이브러리는 matplotlib, seaborn 사용한다.
+1. 내가 원하는 데이터들만 추출해 시각화를 진행한다.<br>주의할점은 속성과 라벨이 있어서 상관관계를 파악할 수 있다.
+2. dropna() 결측값을 포함하고 있는 데이터들을 삭제한다.
+3. gropby라는 메소드를 사용해 항목을 분류해 계산한다.
+![image](image/titanic/groupby.png)
+
+
+5. 누적 막대기 그래프로 시각화 하기 plot.bar 통해서 시각화
+![image](image/titanic/bar.png)
+
+6.수치로 확인<br>
+iloc[행번호, 열번호]로 임의의 행과 열을 추출할 수 있다.
+![image](image/titanic/iloc.png)
+
+7. 히스토그램으로 시각화 하기
+![image](image/titanic/hist.png)
+
+8. 카테고리 변수를 더미 변수화하기
+![image](image/titanic/dummies.png)
+
+9. 상관 행렬 작성
+![image](image/titanic/corr.png)
+
+10. 히트맵으로 시각화
+![image](image/titanic/heatmap.png)
+
+
 ###4. 데이터 전처리와 특징값 생성
 ###5. 머신러닝 모델링
